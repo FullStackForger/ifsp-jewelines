@@ -128,11 +128,7 @@ body > section {
   animation-name: scaleIn;
 }
 
-.lead{
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-}
+
 
 .transparent-bg {
   background-color: transparent !important;
