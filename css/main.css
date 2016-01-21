@@ -651,32 +651,6 @@ input.search-form:hover {
   opacity: 1;
 }
 
-#services {
-  background: #3C0135;
-  background-size: cover;
-}
-
-#services .lead,
-#services h2{
-  color: #fff;
-}
-
-.services-wrap {
-  padding: 40px 30px;
-  background: #fff;
-  border-radius: 4px;
-  margin: 0 0 40px;
-}
-
-.services-wrap h3 {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-.services-wrap .pull-left {
-  margin-right: 20px;
-}
-
 #middle {
   background: #68046F;
   text-align: center;

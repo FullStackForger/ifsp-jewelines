@@ -77,6 +77,26 @@ h6 { font-size:1.5em; }
 	.paralex-content h2 { font-size: 22px; }
 }
 
+#features {
+  background: #3C0135;
+  background-size: cover;
+}
+
+#features .lead,
+#features h2 {
+  color: #fff;
+}
+
+#features .media {
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 0 40px;
+}
+#features .media {
+  margin: 10px 0;
+}
+
 #partner {
   background: #333;
   /*
