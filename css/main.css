@@ -943,42 +943,6 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#hello {
-  background-size: cover;
-}
-
-#hello {
-  color: black;
-  text-align: center;
-}
-
-#hello  img{
-	max-height: 350px;
-}
-
-@media (max-width: 768px) {
-	.img-hello {
-		display: none;
-	}
-}
-
-@media (min-width: 920px) {
-	.img-hello {
-    float: right;
-	}
-}
-
-@media (min-width: 768px) {
-	.text-hello {
-		margin-top: 60px;
-		text-align: left !important;
-	}
-}
-
-#hello h2,
-#hello h3 {
-  color: black;
-}
 
 
 
