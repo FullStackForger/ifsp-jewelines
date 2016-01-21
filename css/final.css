@@ -3,12 +3,80 @@
   margin: 0 -10px 0 0;
 }
 
+#paralex {
+	padding: 0px;
+	height: 520px;
+	margin: 50px 0 0 0;
+  width: 100%;
+  background: url(http://indieforger.com/wp-content/uploads/2015/07/cropped-jewelines-intro-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment:fixed;
+	background-size: cover;
+}
+
+.paralex-content { text-align: center; }
+.paralex-content h1, h2 { color: #fff; }
+.paralex-content h1 { font-size: 72px; }
+.paralex-content h2 { font-size: 32px; }
+
+@media (min-width: 1200px) {
+	.paralex-content { margin-top: 180px; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	#paralex { height: 420px; }
+	.paralex-content { margin-top: 150px; }
+	.paralex-content h1 { font-size: 60px; }
+	.paralex-content h2 { font-size: 28px; }
+}
+
+@media (max-width: 767px) {
+	#paralex { height: 300px; }
+	.paralex-content { padding-top: 80px; }
+	.paralex-content h1 { font-size: 50px; }
+	.paralex-content h2 { font-size: 22px; }
+}
+
+#partner {
+  background: #333;
+  /*
+  text-shadow: 2px 2px #000;
+  background-image: url(http://indieforger.com/wp-content/uploads/2015/07/cropped-jewelines-intro-banner.jpg);
+  */
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+#partner {
+  color: #fff;
+  text-align: center;
+}
+
+#partner h2,
+#partner h3 {
+  color: #fff;
+}
+
+.partners ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.partners ul li {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
 
 #footer {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #2e2e2e;
+  background: #111;
 }
 
 #footer a {
