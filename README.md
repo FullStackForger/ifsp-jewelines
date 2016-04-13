@@ -4,6 +4,7 @@
 ## todo
 - [x] cleanup index files
 - [x] cleanup images
+- [x] cleanup scripts
 - [ ] add missing content (features)
 - [ ] remove text typos
 - [ ] responsive line breaks
