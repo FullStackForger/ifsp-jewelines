@@ -5238,13 +5238,13 @@ a.thumbnail.active {
   background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
-.media {
+.feature {
   margin-top: 15px;
 }
-.media:first-child {
+.feature:first-child {
   margin-top: 0;
 }
-.media,
+.feature,
 .media-body {
   overflow: hidden;
   zoom: 1;
@@ -5259,11 +5259,11 @@ a.thumbnail.active {
   max-width: none;
 }
 .media-right,
-.media > .pull-right {
+.feature > .pull-right {
   padding-left: 10px;
 }
 .media-left,
-.media > .pull-left {
+.feature > .pull-left {
   padding-right: 10px;
 }
 .media-left,
