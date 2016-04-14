@@ -1,0 +1,21 @@
+{
+  "name": "page-jewelines",
+  "homepage": "https://github.com/indieforger/page-jewelines",
+  "authors": [
+    "IndieForger <indieforger@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "responsive-lightbox": "*"
+  }
+}

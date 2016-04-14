@@ -20,7 +20,7 @@ node_modules
 npm-debug.log
 
 # Bower components
-bower_components
+vendor
 
 # IntelliJ IDEA files
 .idea/
