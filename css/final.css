@@ -7,7 +7,10 @@ body {
     color: #333;
 }
 
-body > section { padding: 70px 0; }
+body > section {
+    padding: 70px 0;
+    border-top: 5px solid #4F0050;
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Oswald', Tahoma, Geneva, sans-serif;
@@ -84,7 +87,7 @@ section.dark-theme {
 .paralex-content h1,
 .paralex-content h2 {
   font-family: 'Open Sans', 'Times New Roman', serif;
-  text-shadow: 1px 1px 3px #333;
+  text-shadow: 2px 2px 5px #4F0050;
   color: #fff;
 }
 .paralex-content h1 {
@@ -155,6 +158,7 @@ section.dark-theme {
     background: #731073;
     margin: 10px 0;
     border-radius: 6px;
+    border: 1px solid #4F0050;
 }
 
 .screenshot img {
