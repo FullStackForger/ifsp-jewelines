@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "responsive-lightbox": "*",
-    "wow": "wowjs#^1.1.2"
+    "wow": "wowjs#^1.1.2",
+    "animate.css": "^3.5.1"
   }
 }
