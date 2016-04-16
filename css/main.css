@@ -74,51 +74,51 @@ section.dark-theme {
 .text-hello > div:first-child h4 { margin-top: 10px; }
 .text-hello > div { margin-bottom: 20px; }
 
-#paralex {
-	padding: 0px;
+section.parallax {
+	padding: 0;
 	height: 520px;
 	margin: 0;
-  width: 100%;
-  background: url('http://cdn.indieforger.com/jewelines/page/cropped-jewelines-intro-banner-1280x444-20160414.jpg');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment:fixed;
+    width: 100%;
+    background: url('http://cdn.indieforger.com/jewelines/page/cropped-jewelines-intro-banner-1280x444-20160414.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment:fixed;
 	background-size: cover;
 }
 
-.paralex-content { text-align: center; }
-.paralex-content h1,
-.paralex-content h2 {
+.parallax-content { text-align: center; }
+.parallax-content h1,
+.parallax-content h2 {
   font-family: 'Open Sans', 'Times New Roman', serif;
   text-shadow: 2px 2px 5px #4F0050;
   color: #fff;
 }
-.paralex-content h1 {
+.parallax-content h1 {
   font-size: 6em;
   font-weight: 500;
 }
-.paralex-content h2 {
+.parallax-content h2 {
   font-size: 3em;
   font-family: inherit;
   font-weight: 300;
 }
 
 @media (min-width: 1200px) {
-	.paralex-content { margin-top: 180px; }
+	.parallax-content { margin-top: 180px; }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-	#paralex { height: 420px; }
-	.paralex-content { margin-top: 150px; }
-	.paralex-content h1 { font-size: 60px; }
-	.paralex-content h2 { font-size: 28px; }
+	#parallax { height: 420px; }
+	.parallax-content { margin-top: 150px; }
+	.parallax-content h1 { font-size: 60px; }
+	.parallax-content h2 { font-size: 28px; }
 }
 
 @media (max-width: 767px) {
-	#paralex { height: 300px; }
-	.paralex-content { padding-top: 80px; }
-	.paralex-content h1 { font-size: 50px; }
-	.paralex-content h2 { font-size: 22px; }
+	#parallax { height: 300px; }
+	.parallax-content { padding-top: 80px; }
+	.parallax-content h1 { font-size: 50px; }
+	.parallax-content h2 { font-size: 22px; }
 }
 
 
