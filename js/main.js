@@ -10,3 +10,16 @@ jQuery(function($) {'use strict',
 		}, 500);
 	});
 });
+
+angular
+	.module('GamePage', ['satellizer'])
+	.config(function($authProvider) {
+		$authProvider.facebook({
+			clientId: 'Facebook App ID'
+		});
+	})
+	.controller('LoginCtrl', function($scope, $auth) {
+		$scope.authenticate = function(provider) {
+			$auth.authenticate(provider);
+		};
+	});
