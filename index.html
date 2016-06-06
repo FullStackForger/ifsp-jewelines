@@ -34,12 +34,16 @@
 	<link rel="apple-touch-icon-precomposed" href="images/icons/jewelines-icon-57-20160414.png">
 </head>
 
-<body>
+<body ng-app="GamePage">
 <section class="parallax">
 	<div class="col-sm-12">
 		<div class="parallax-content">
 			<h1 class="wow fadeInDown">Jewelines</h1>
 			<h2 class="wow fadeInDown">Color matching puzzle game</h2>
+			<div ng-controller="LoginCtrl">
+				<button ng-click="authenticate('facebook')">Sign in with Facebook</button>
+				<button ng-click="authenticate('google')">Sign in with Google</button>
+			</div>
 		</div>
 	</div>
 </section>
