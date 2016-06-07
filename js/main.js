@@ -15,7 +15,7 @@ angular
 	.module('GamePage', ['satellizer'])
 	.config(function($authProvider) {
 		$authProvider.facebook({
-			clientId: 'Facebook App ID'
+			clientId: '1163912896952827'
 		});
 	})
 	.controller('LoginCtrl', function($scope, $auth) {
