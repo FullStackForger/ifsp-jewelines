@@ -6,19 +6,24 @@
 	bottom: 0;
 }
 
-.social-login.top-banner {
+.social-login.fixed-banner {
 	text-align: center;
-	position: absolute;
+	position: fixed;
 	width: 100%;
-	background: rgba(135, 31, 148, 0.75);
+	background: rgba(135, 31, 148, 1);
 	border-top: 1px solid #ffffff;
 	padding: 10px 10px;
-	height: 140px;
 }
 
 .social-login h3 {
 	text-shadow: 2px 2px 5px #4F0050;
-	color: #fff;
+}
+
+.social-login .social-panel {
+	height: auto;
+}
+.social-login .social-panel.expanded {
+	height: 200px;
 }
 
 .social-login .social-buttons {
@@ -32,6 +37,8 @@
 	transition: transform 0.26s ease;
 }
 
-.social-login .social-label {
-
+.social-login .social-label label {
+	border: 1px solid #ffffff;
+	padding: 5px 15px;
+	margin-top: 20px;
 }
