@@ -11,7 +11,7 @@
 	text-align: center;
 	position: absolute;
 	width: 100%;
-	background: #9745a1;
+	background: rgba(151, 69, 161, 0.75);
 	border-top: 1px solid #ffffff;
 	padding: 10px 10px;
 }
