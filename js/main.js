@@ -12,7 +12,7 @@ jQuery(function($) {'use strict',
 });
 
 angular
-	.module('GamePage', ['satellizer'])
+	.module('GamePage', ['satellizer', 'environment'])
 	.config(function($authProvider) {
 		$authProvider.facebook({
 			clientId: '1163912896952827'
