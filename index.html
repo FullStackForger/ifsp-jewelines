@@ -40,7 +40,16 @@
 		<div class="parallax-content">
 			<h1 class="wow fadeInDown">Jewelines</h1>
 			<h2 class="wow fadeInDown">Color matching puzzle game</h2>
-			<div ng-controller="LoginCtrl">
+		</div>
+		<div ng-controller="LoginCtrl" class="social-login top-banner">
+			<h3>We are testing game on IOS.</h3>
+			<div class="social-label">
+				<label>
+					<input type="checkbox" ng-model="expanded" />
+					Sign in to test the game now
+				</label>
+			</div>
+			<div class="social-buttons" ng-show="expanded">
 				<button ng-click="authenticate('facebook')">Sign in with Facebook</button>
 				<button ng-click="authenticate('google')">Sign in with Google</button>
 			</div>
