@@ -86,12 +86,13 @@ section.parallax {
 	background-size: cover;
 }
 
-.parallax-content { text-align: center; }
+.parallax-content { text-align: center;   color: #fff; }
 .parallax-content h1,
-.parallax-content h2 {
+.parallax-content h2,
+.parallax-content h3 {
   font-family: 'Open Sans', 'Times New Roman', serif;
   text-shadow: 2px 2px 5px #4F0050;
-  color: #fff;
+
 }
 .parallax-content h1 {
   font-size: 6em;
@@ -104,7 +105,7 @@ section.parallax {
 }
 
 @media (min-width: 1200px) {
-	.parallax-content { margin-top: 180px; }
+	.parallax-content { margin-top: 120px; }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
