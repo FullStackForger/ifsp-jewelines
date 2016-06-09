@@ -1,7 +1,7 @@
 .social-login {
 	border: 1px solid black;
 	margin-top: 10px;
-	padding: 10px;
+	padding: 0;
 	color: white;
 	bottom: 0;
 }
@@ -12,7 +12,6 @@
 	width: 100%;
 	background: rgba(135, 31, 148, 1);
 	border-top: 1px solid #ffffff;
-	padding: 10px 10px;
 }
 
 .social-login h3 {
@@ -22,16 +21,19 @@
 .social-login .social-panel {
 	height: auto;
 }
-.social-login .social-panel.expanded {
-	height: 200px;
-}
 
 .social-login .social-buttons {
+	background-color: #fff;
 	transform: scaleY(1);
+	padding: 40px 10px;
+}
+
+.social-login .social-buttons .btn {
+	width: 200px;
+	margin: 10px;
 }
 
 .social-login .social-buttons.ng-hide {
-	background-color: #eee;
 	transform: scaleY(0);
 	transform-origin: top;
 	transition: transform 0.26s ease;
@@ -41,4 +43,32 @@
 	border: 1px solid #ffffff;
 	padding: 5px 15px;
 	margin-top: 20px;
+}
+
+/*********************
+* Social Buttons
+*********************/
+
+.btn-google-plus {
+	color: #fff;
+	background-color: #dd4b39;
+	border: 1px solid #d54331;
+}
+
+.btn-google-plus:hover,
+.btn-google-plus:focus {
+	color: #fff;
+	background-color: #cb3927;
+}
+
+.btn-facebook {
+	color: #fff;
+	background-color: #3b5998;
+	border: 1px solid #335190;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+	color: #fff;
+	background-color: #294786;
 }
