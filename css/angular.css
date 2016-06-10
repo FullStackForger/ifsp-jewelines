@@ -49,6 +49,14 @@
 * Social Buttons
 *********************/
 
+.btn [class^='ion-'] {
+	margin-right: 5px;
+}
+
+.btn .fa {
+	margin-right: 5px;
+}
+
 .btn-google-plus {
 	color: #fff;
 	background-color: #dd4b39;
