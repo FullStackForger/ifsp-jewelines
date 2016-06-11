@@ -19,7 +19,17 @@ angular
 		});
 	})
 	.controller('LoginCtrl', function($scope, $auth) {
+		var expanded = false;
+
 		$scope.authenticate = function(provider) {
 			$auth.authenticate(provider);
 		};
+
+		$scope.isExpanded = function() {
+			return expanded;
+		};
+
+		$scope.toggle = function(expand) {
+			expanded = expand === true ? true : false;
+		}
 	});

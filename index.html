@@ -243,14 +243,15 @@
 
 <section ng-controller="LoginCtrl" class="social-login fixed-banner">
 
-	<div class="social-label" ng-show="!expanded">
+	<div class="social-label" ng-show="!isExpanded()">
 		<h3>We're testing on mobile NOW!</h3>
 		<h6>Want to help testing or try early release?</h6>
-		<label><input type="checkbox" ng-model="expanded" ng-show="false"/>Sign in</label> to sign up
+		<label><input type="checkbox" ng-click="toggle(true)" ng-show="false"/>Sign in</label> to sign up
 	</div>
 
-	<div class="social-panel" ng-show="expanded" ng-class="{expanded: expanded}">
-		<button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	<div class="social-panel" ng-show="isExpanded()" ng-class="{expanded: isExpanded()}">
+		<button type="button" class="close" aria-label="Close"
+						ng-click="toggle(false)"><span aria-hidden="true">&times;</span></button>
 		<div class="social-buttons">
 			<button class="btn btn-facebook" ng-click="authenticate('facebook')">
 				<i class="ion-social-facebook"></i> Sign in with Facebook
