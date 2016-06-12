@@ -241,15 +241,14 @@
 </footer>
 
 
-<section ng-controller="LoginCtrl" class="social-login fixed-banner">
-
+<section class="social-login fixed-banner" ng-controller="LoginCtrl" ng-class="{expanded: isExpanded()}">
 	<div class="social-label" ng-show="!isExpanded()">
 		<h5>We're testing on mobile NOW!</h5>
 		<h6>Want to help testing or try early release?</h6>
 		<label><input type="checkbox" ng-click="toggle(true)" ng-show="false"/>Sign in</label> to sign up
 	</div>
 
-	<div class="social-panel" ng-show="isExpanded()" ng-class="{expanded: isExpanded()}">
+	<div class="social-panel" ng-show="isExpanded()">
 		<button type="button" class="close" aria-label="Close"
 						ng-click="toggle(false)"><span aria-hidden="true">&times;</span></button>
 		<div class="social-buttons">

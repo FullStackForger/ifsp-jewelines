@@ -23,18 +23,16 @@
 	text-shadow: 2px 2px 5px #4F0050;
 }
 
-.social-login .social-panel {
-	height: auto;
-}
-
-.social-login .social-panel.expanded {
+.social-login.expanded {
 	background-color: #fff;
 }
+
+
 
 .social-login .social-panel .close {
 	font-size: 21px;
 	cursor: pointer;
-	margin: 5px;
+	margin: 5px 10px 5px 5px;
 }
 
 .social-login .social-panel .close:hover {
