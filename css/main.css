@@ -145,7 +145,11 @@ section.parallax > div:first-child {
   border: none;
 }
 
-ul.gallery {  list-style: none; }
+ul.gallery {
+	list-style: none;
+	padding: 0;
+}
+
 ul.gallery li {
     margin: 0;
     padding: 10px;
