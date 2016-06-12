@@ -13,10 +13,10 @@
 	padding-bottom: 10px;
 }
 
-.social-label {
+.social-login {
 	color: white;
 }
-.social-label label {
+.social-login label {
 	cursor: pointer;
 }
 .social-login h3 {
@@ -28,28 +28,29 @@
 	border-top: 1px solid rgba(135, 31, 148, 1);
 }
 
-.social-login .social-panel .close {
+.social-login .close {
 	font-size: 21px;
 	cursor: pointer;
 	margin: 5px 10px 5px 5px;
+	float: right;
 }
 
-.social-login .social-panel .close:hover {
+.social-login .close:hover {
 	opacity: 0.8;
 }
 
-.social-login .social-buttons {
+.social-login .container {
 	transform: scaleY(1);
 	padding: 30px 10px;
 	margin: 0px 20px;
 }
 
-.social-login .social-buttons .btn {
+.social-login .container .btn {
 	width: 200px;
 	margin: 10px;
 }
 
-.social-login .social-buttons.ng-hide {
+.social-login .container.ng-hide {
 	transform: scaleY(0);
 	transform-origin: top;
 	transition: transform 0.26s ease;
