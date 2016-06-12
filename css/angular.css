@@ -25,9 +25,8 @@
 
 .social-login.expanded {
 	background-color: #fff;
+	border-top: 1px solid rgba(135, 31, 148, 1);
 }
-
-
 
 .social-login .social-panel .close {
 	font-size: 21px;
