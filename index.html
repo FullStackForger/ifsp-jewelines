@@ -240,10 +240,12 @@
 	</div>
 </footer>
 
-<div class="social-login fixed-banner" ng-controller="LoginCtrl" ng-class="{expanded: isExpanded()}">
+<div class="social-login fixed-banner"
+		 ng-controller="LoginCtrl" ng-class="{expanded: isExpanded(), open: isOpen()}" >
+
 	<div ng-show="!isExpanded()">
 		<button type="button" class="close" aria-label="Close"
-						ng-click="toggle(false)"><span aria-hidden="true">&times;</span></button>
+						ng-click="close()"><span aria-hidden="true">&times;</span></button>
 		<div class="container">
 			<h5>We're testing on mobile NOW!</h5>
 			<h6>Want to help testing or try early release?</h6>

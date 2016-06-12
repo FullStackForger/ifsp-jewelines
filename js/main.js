@@ -20,6 +20,7 @@ angular
 	})
 	.controller('LoginCtrl', function($scope, $auth) {
 		var expanded = false;
+		var open = true;
 
 		$scope.authenticate = function(provider) {
 			$auth.authenticate(provider);
@@ -29,7 +30,16 @@ angular
 			return expanded;
 		};
 
+		$scope.isOpen = function() {
+			return open;
+		};
+
 		$scope.toggle = function(expand) {
 			expanded = expand === true ? true : false;
-		}
+		};
+
+		$scope.close = function() {
+			console.log('close');
+			open = false;
+		};
 	});

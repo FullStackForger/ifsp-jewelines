@@ -2,8 +2,11 @@
 	margin-top: 10px;
 	padding: 0;
 	bottom: 0;
+	display: none;
 }
-
+.social-login.open {
+	display: block;
+}
 .social-login.fixed-banner {
 	text-align: center;
 	position: fixed;
@@ -33,6 +36,7 @@
 	cursor: pointer;
 	margin: 5px 10px 5px 5px;
 	float: right;
+	background: none;
 }
 
 .social-login .close:hover {
@@ -40,7 +44,6 @@
 }
 
 .social-login .container {
-	transform: scaleY(1);
 	padding: 30px 10px;
 	margin: 0px 20px;
 }
