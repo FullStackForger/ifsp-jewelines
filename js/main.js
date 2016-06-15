@@ -1,4 +1,6 @@
-jQuery(function($) {'use strict',
+'use strict';
+
+jQuery(function($) {
 	new WOW().init();
 
 	$('.gallery a').lightbox();
