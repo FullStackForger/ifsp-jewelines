@@ -12,10 +12,26 @@ jQuery(function($) {'use strict',
 });
 
 angular
-	.module('GamePage', ['satellizer'])
-	.config(function($authProvider) {
-		$authProvider.facebook({
-			clientId: '1163912896952827'
+	.module('GamePage', ['satellizer', 'environment'])
+	.config(function($authProvider, envServiceProvider) {
+
+		envServiceProvider.config({
+			domains: {
+				development: ['localhost', 'dev.local', '127.0.0.1'],
+				production: ['indieforger.com']
+			},
+			vars: {
+				development: {
+					facebookConfig: {
+						clientId: '1163912896952827'
+					}
+				},
+				production: {
+					facebookConfig: {
+						clientId: '1163912896952827'
+					}
+				}
+			}
 		});
 	})
 	.controller('LoginCtrl', function($scope, $auth) {
