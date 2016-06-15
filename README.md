@@ -23,6 +23,13 @@
 - [ ] buttons to App and Play store in the footer
 - [ ] add social share buttons (facebook, twitter, pintrest, reddit, diggit )
 - [ ] replace Bootstrap favicon with IndieForger icon
+- [x] social login features
+	- [x] social login buttons
+		- [x] add "login with Facebook"
+		- [x] add "login with Google"
+	- [ ] social login endpoints
+	- [ ] login redirection
+	- [ ] save custom data (TOC & tester devices check boxes)
 - [ ] create header
   - [ ] Indieforger logotype link to IndieForger.com
   - [ ] login with facebook button feature*
