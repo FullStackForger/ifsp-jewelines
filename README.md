@@ -5,7 +5,7 @@
 - [x] cleanup index files
 - [x] cleanup images
 - [x] cleanup scripts
-- [ ] add missing content (features)
+- [x] add missing content (features)
 - [ ] remove text typos
 - [ ] responsive line breaks
 - [x] hide menus from the header
