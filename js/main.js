@@ -28,7 +28,7 @@ angular
 				},
 				production: {
 					facebookConfig: {
-						clientId: '1163912896952827'
+						clientId: '1058804700796981' // todo: test on production
 					}
 				}
 			}
