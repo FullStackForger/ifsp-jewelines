@@ -33,6 +33,9 @@ angular
 				}
 			}
 		});
+
+		envServiceProvider.check();
+		$authProvider.facebook(envServiceProvider.read('facebookConfig'));
 	})
 	.controller('LoginCtrl', function($scope, $auth) {
 		var expanded = false;
