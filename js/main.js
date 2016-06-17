@@ -41,7 +41,7 @@ angular
 	})
 	.controller('LoginCtrl', function($scope, $auth) {
 		var expanded = false;
-		var open = true;
+		var open = false;
 
 		$scope.authenticate = function(provider) {
 			$auth.authenticate(provider);
